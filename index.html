@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <style>
+      .swiper {
+        /* /* width: 100%; */
+        height: 250px;
+        /* width: 500px; */
+        /* height: 500px; */
+      }
+
+      .swiper-slide {
+        position: relative;
+        height: 215px !important;
+        width: 215px !important;
+        background-color: rgba(255, 255, 255, 1);
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        /* box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08); */
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero-section">
+      <header>
+        <img src="assets/images/lg1.png" class="logo" alt="Logo" />
+        <nav>
+          <ul class="navlink">
+            <li><a href="#" id="active">Home</a></li>
+            <li><a href="#">Coures</a></li>
+            <li><a href="#">Become Teacher</a></li>
+            <li><a href="#">Become Parents</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div>
+          <a href="#"><button>Sign in</button></a>
+          <a href="#"><button class="btn1">Sign Up</button></a>
+        </div>
+      </header>
+
+      <section class="my-4" style="position: relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 d-flex">
+              <div class="">
+                <h1>
+                  Get Best Quality <br />
+                  Education
+                  <img
+                    src="assets/images/heading-round.png"
+                    alt=""
+                    style="position: absolute"
+                  />
+                  <span
+                    style="
+                      position: relative;
+                      top: 13px;
+                      left: 30px;
+                      color: #3fc4ff;
+                    "
+                    >Courses</span
+                  ><br />
+                  By <span style="color: #946fc6">NotePal</span>.
+                </h1>
+                <p>
+                  We have the best quality education courses, and we provide
+                  education courses for students and parents. They can login and
+                  select a course for learning.
+                </p>
+                <button class="btn1" id="getcourses">Get Courses</button>
+                <button class="btn mb-3" id="readmore">
+                  Read More
+                  <span class="span-arrow"
+                    ><img src="assets/images/Arrow.png" alt=""
+                  /></span>
+                </button>
+              </div>
+              <div class="right">
+                <img
+                  src="assets/images/banner-img.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="count"
+        style="position: absolute; top: 116%"
+        class="container-fluid"
+      >
+        <div class="d-flex justify-content-around align-items-center h-100">
+          <div id="totalcourses" class="part">
+            <div class="bgg">
+              <img
+                src="/assets/images/courses-icon.png"
+                alt=""
+                class="img-course"
+              />
+            </div>
+            <div id="content">
+              <h3>500+</h3>
+              <p>Total Courses</p>
+            </div>
+          </div>
+          <div id="totalteachers" class="part">
+            <div class="bgg">
+              <img
+                src="/assets/images/teacher-icon.png"
+                alt=""
+                class="img-course"
+              />
+            </div>
+            <div id="content">
+              <h3>250+</h3>
+              <p>Total Teachers</p>
+            </div>
+          </div>
+          <div id="totalparents" class="part">
+            <div class="bgg">
+              <img
+                src="/assets/images/parents-icon.png"
+                alt=""
+                class="img-course"
+              />
+            </div>
+            <div id="content">
+              <h3>10K+</h3>
+              <p>Total Parents</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section style="background-color: #946fc636" class="container-fluid">
+      <div style="padding-top: 10%">
+        <div class="main2 container">
+          <div class="row2">
+            <div class="col-4">
+              <div class="col--3">
+                <h2 style="font-weight: bold">
+                  Why we are the best from others?
+                </h2>
+                <p style="width: 103%">
+                  we have best qaulity education courses and we provide
+                  education courses for students parents.
+                </p>
+                <button class="btn1">Buy Coures</button>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="col--3">
+                <div
+                  class="inner_details d-flex align-items-center justify-content-center"
+                >
+                  <img src="assets/images/emc2.png" alt="" class="icon-Coz" />
+                </div>
+                <h4 class="text11">Best Teachers</h4>
+                <p>
+                  We have skills teachers in communication, listening,
+                  collaboration, adaptability, empathy and patience. Other
+                  characteristics of effective teaching include an engaging
+                  classroom presence.
+                </p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="col--3">
+                <div
+                  class="inner_details d-flex align-items-center justify-content-center"
+                  style="background-color: #798ee4"
+                >
+                  <img
+                    src="assets/images/Certificate.webp"
+                    alt=""
+                    class="icon-Coz"
+                  />
+                </div>
+                <h4 class="text11">Certificates</h4>
+                <p>
+                  We have skills teachers in communication, listening,
+                  collaboration, adaptability, empathy and patience. Other
+                  characteristics of effective teaching include an engaging
+                  classroom presence.
+                </p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="col--3">
+                <div
+                  class="inner_details d-flex align-items-center justify-content-center"
+                  style="background-color: #946fc6"
+                >
+                  <img src="assets/images/price.webp" alt="" class="icon-Coz" />
+                </div>
+                <h4 class="text11">Best Price</h4>
+                <p>
+                  We have skills teachers in communication, listening,
+                  collaboration, adaptability, empathy and patience. Other
+                  characteristics of effective teaching include an engaging
+                  classroom presence.
+                </p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="col--3">
+                <div
+                  class="inner_details d-flex align-items-center justify-content-center"
+                  style="background-color: #a54e9f"
+                >
+                  <img
+                    src="assets/images/Groupemc2.png"
+                    alt=""
+                    class="icon-Coz"
+                  />
+                </div>
+                <h4 class="text11">Creative Thinking</h4>
+                <p>
+                  We have skills teachers in communication, listening,
+                  collaboration, adaptability, empathy and patience. Other
+                  characteristics of effective teaching include an engaging
+                  classroom presence.
+                </p>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="col--3">
+                <div
+                  class="inner_details d-flex align-items-center justify-content-center"
+                  style="background-color: #58aaf7"
+                >
+                  <img
+                    src="assets/images/circullam'.webp"
+                    alt=""
+                    class="icon-Coz"
+                  />
+                </div>
+                <h4 class="text11">Best Curriculum</h4>
+                <p>
+                  We have skills teachers in communication, listening,
+                  collaboration, adaptability, empathy and patience. Other
+                  characteristics of effective teaching include an engaging
+                  classroom presence.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="height: 609px; margin-top: 100px" class="container-fluid">
+      <div class="m-5 text-center heading">
+        <h2 class="h2-heading">
+          Browse <span class="span-courses">courses</span> by categories
+        </h2>
+
+        <p>
+          We have best quality education courses and we provide <br />
+          courses for students parents.
+        </p>
+      </div>
+      <div class="container-fluid" style="height: 250px">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-1 d-flex align-items-center">
+            <!-- <div class="swiper-button-prev"></div> -->
+            <div class="prev d-flex align-items-center justify-content-cente">
+              <img src="assets/images/left-arrow.png" class="leftc" alt="" />
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="card swiper-slide">
+                  <img src="assets/images/Science.png" class="" alt="Image 5" />
+                  <div class="text-center">
+                    <h5 class="card-title">Science</h5>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <img
+                    src="assets/images/Commerce.png"
+                    class=""
+                    alt="Image 5"
+                  />
+                  <div class="text-center">
+                    <h5 class="card-title">Commerce</h5>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <img
+                    src="assets/images/Mathematics.png"
+                    class=""
+                    alt="Image 5"
+                  />
+                  <div class="text-center">
+                    <h5 class="card-title">Mathematics</h5>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <img
+                    src="assets/images/Geography.png"
+                    class=""
+                    alt="Image 5"
+                  />
+                  <div class="text-center">
+                    <h5 class="card-title">Geography</h5>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <img src="assets/images/English.png" class="" alt="Image 5" />
+                  <div class="text-center">
+                    <h5 class="card-title">English</h5>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <img src="assets/images/English.png" class="" alt="Image 5" />
+                  <div class="text-center">
+                    <h5 class="card-title">English</h5>
+                  </div>
+                </div>
+                <div class="card swiper-slide">
+                  <img src="assets/images/English.png" class="" alt="Image 5" />
+                  <div class="text-center">
+                    <h5 class="card-title">English</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1 d-flex align-items-center justify-content-end">
+            <!-- <div class="swiper-button-next"></div> -->
+            <div class="next d-flex align-items-center justify-content-center">
+              <img src="assets/images/right-arrow.png" class="rightc" alt="" />
+            </div>
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+          <!-- <div class=""></div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid course-list">
+      <div class="sec-text m-4">
+        <h2 class="h2-heading">
+          Our top <span class="span-courses">courses</span> for you
+        </h2>
+        <p style="font-family: var(--lato-font)">
+          We have best quality education courses and we provide <br />
+          education courses for students parents.
+        </p>
+      </div>
+      <div class="container">
+        <div class="card-group">
+          <div class="card">
+            <img class="course-img" src="assets/images/courses_1.png" alt="" />
+            <div class="card-body">
+              <a href="#" class="btn card-button"
+                ><span class="card-lable">Science</span></a
+              >
+              <h4 class="card-title">The Complete Science Course.</h4>
+              <p class="card-text">
+                We have best quality education courses and we provide education
+                courses.
+              </p>
+              <a href="#" class="btn1" style="background-color: #3fc4ff"
+                >Buy Courses</a
+              >
+            </div>
+            <div class="m-2 d-flex justify-content-around" style="width: auto">
+              <div class="d-flex align-items-center" style="display: inline">
+                <div id="facebook" class="end-logos">
+                  <img src="assets/images/Vector.svg" alt="facebook_img" />
+                </div>
+                <div>200k</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="instagram" class="end-logos">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-star"
+                    viewBox="0 0 16 16"
+                    style="color: #946fc6"
+                  >
+                    <path
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                    />
+                  </svg>
+                </div>
+                <div>4.9</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="twitter" class="end-logos">
+                  <img src="assets/images/coin 1.svg" alt="twitter_img" />
+                </div>
+                <div>$105.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="course-img" src="assets/images/courses_1.png" alt="" />
+            <div class="card-body">
+              <a href="#" class="btn card-button"
+                ><span class="card-lable">Science</span></a
+              >
+              <h4 class="card-title">The Complete Science Course.</h4>
+              <p class="card-text">
+                We have best quality education courses and we provide education
+                courses.
+              </p>
+              <a href="#" class="btn1" style="background-color: #3fc4ff"
+                >Buy Courses</a
+              >
+            </div>
+            <div class="m-2 d-flex justify-content-around" style="width: auto">
+              <div class="d-flex align-items-center" style="display: inline">
+                <div id="facebook" class="end-logos">
+                  <img src="assets/images/Vector.svg" alt="facebook_img" />
+                </div>
+                <div>200k</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="instagram" class="end-logos">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-star"
+                    viewBox="0 0 16 16"
+                    style="color: #946fc6"
+                  >
+                    <path
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                    />
+                  </svg>
+                </div>
+                <div>4.9</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="twitter" class="end-logos">
+                  <img src="assets/images/coin 1.svg" alt="twitter_img" />
+                </div>
+                <div>$105.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="course-img" src="assets/images/courses_1.png" alt="" />
+            <div class="card-body">
+              <a href="#" class="btn card-button"
+                ><span class="card-lable">Science</span></a
+              >
+              <h4 class="card-title">The Complete Science Course.</h4>
+              <p class="card-text">
+                We have best quality education courses and we provide education
+                courses.
+              </p>
+              <a href="#" class="btn1" style="background-color: #3fc4ff"
+                >Buy Courses</a
+              >
+            </div>
+            <div class="m-2 d-flex justify-content-around" style="width: auto">
+              <div class="d-flex align-items-center" style="display: inline">
+                <div id="facebook" class="end-logos">
+                  <img src="assets/images/Vector.svg" alt="facebook_img" />
+                </div>
+                <div>200k</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="instagram" class="end-logos">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-star"
+                    viewBox="0 0 16 16"
+                    style="color: #946fc6"
+                  >
+                    <path
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                    />
+                  </svg>
+                </div>
+                <div>4.9</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="twitter" class="end-logos">
+                  <img src="assets/images/coin 1.svg" alt="twitter_img" />
+                </div>
+                <div>$105.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="course-img" src="assets/images/courses_1.png" alt="" />
+            <div class="card-body">
+              <a href="#" class="btn card-button"
+                ><span class="card-lable">Science</span></a
+              >
+              <h4 class="card-title">The Complete Science Course.</h4>
+              <p class="card-text">
+                We have best quality education courses and we provide education
+                courses.
+              </p>
+              <a href="#" class="btn1" style="background-color: #3fc4ff"
+                >Buy Courses</a
+              >
+            </div>
+            <div class="m-2 d-flex justify-content-around" style="width: auto">
+              <div class="d-flex align-items-center" style="display: inline">
+                <div id="facebook" class="end-logos">
+                  <img src="assets/images/Vector.svg" alt="facebook_img" />
+                </div>
+                <div>200k</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="instagram" class="end-logos">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-star"
+                    viewBox="0 0 16 16"
+                    style="color: #946fc6"
+                  >
+                    <path
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                    />
+                  </svg>
+                </div>
+                <div>4.9</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="twitter" class="end-logos">
+                  <img src="assets/images/coin 1.svg" alt="twitter_img" />
+                </div>
+                <div>$105.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="course-img" src="assets/images/courses_1.png" alt="" />
+            <div class="card-body">
+              <a href="#" class="btn card-button"
+                ><span class="card-lable">Science</span></a
+              >
+              <h4 class="card-title">The Complete Science Course.</h4>
+              <p class="card-text">
+                We have best quality education courses and we provide education
+                courses.
+              </p>
+              <a href="#" class="btn1" style="background-color: #3fc4ff"
+                >Buy Courses</a
+              >
+            </div>
+            <div class="m-2 d-flex justify-content-around" style="width: auto">
+              <div class="d-flex align-items-center" style="display: inline">
+                <div id="facebook" class="end-logos">
+                  <img src="assets/images/Vector.svg" alt="facebook_img" />
+                </div>
+                <div>200k</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="instagram" class="end-logos">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-star"
+                    viewBox="0 0 16 16"
+                    style="color: #946fc6"
+                  >
+                    <path
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                    />
+                  </svg>
+                </div>
+                <div>4.9</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="twitter" class="end-logos">
+                  <img src="assets/images/coin 1.svg" alt="twitter_img" />
+                </div>
+                <div>$105.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="course-img" src="assets/images/courses_1.png" alt="" />
+            <div class="card-body">
+              <a href="#" class="btn card-button"
+                ><span class="card-lable">Science</span></a
+              >
+              <h4 class="card-title">The Complete Science Course.</h4>
+              <p class="card-text">
+                We have best quality education courses and we provide education
+                courses.
+              </p>
+              <a href="#" class="btn1" style="background-color: #3fc4ff"
+                >Buy Courses</a
+              >
+            </div>
+            <div class="m-2 d-flex justify-content-around" style="width: auto">
+              <div class="d-flex align-items-center" style="display: inline">
+                <div id="facebook" class="end-logos">
+                  <img src="assets/images/Vector.svg" alt="facebook_img" />
+                </div>
+                <div>200k</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="instagram" class="end-logos">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-star"
+                    viewBox="0 0 16 16"
+                    style="color: #946fc6"
+                  >
+                    <path
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                    />
+                  </svg>
+                </div>
+                <div>4.9</div>
+              </div>
+              <div class="d-flex align-items-center">
+                <div id="twitter" class="end-logos">
+                  <img src="assets/images/coin 1.svg" alt="twitter_img" />
+                </div>
+                <div>$105.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-6 d-flex align-items-center" id="information-1">
+          <div id="teacher-img">
+            <img src="assets/images/teacher-img.png" alt="teacher" />
+          </div>
+          <div class="teacher-info">
+            <h2>Join as a <span style="font-weight: bold">Teacher</span></h2>
+            <p>
+              If you want join as a teacher and you want work with us then you
+              can join us.
+            </p>
+            <button class="btn_teacher">Sign up</button>
+          </div>
+        </div>
+        <div class="col-6 d-flex align-items-center" id="information-2">
+          <div class="parent-info">
+            <h2>Join as a <span style="font-weight: bold">Parents</span></h2>
+            <p>
+              If you want join as a parents and you want to learn then you can
+              join us.
+            </p>
+            <button class="btn_parents">Sign up</button>
+          </div>
+          <div id="parent-img">
+            <img src="assets/images/parent-img.png" alt="teacher" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="height: 609px" class="container-fluid">
+      <div class="text-center heading">
+        <h2 class="h2-heading">
+          What <span class="span-courses">parents</span> say
+        </h2>
+        <p>
+          We have best quality education courses and we provide <br />
+          education courses for students parents.
+        </p>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 d-flex align-items-center">
+            <div>
+              <img src="assets/images/left-arrow.png" class="left-arr" alt="" />
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="d-flex flex-column align-items-center person">
+              <img src="assets/images/Person.png" alt="" />
+              <p class="person_heading">John Smith</p>
+              <p class="person_para">Parents</p>
+            </div>
+            <div class="person_info text-center">
+              <p>
+                I am one of the users of notepal. I like how the mentors teach
+                and guide,<br />
+                and they will give tips and tricks for competitive exams.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-2 d-flex align-items-center justify-content-end">
+            <img
+              src="assets/images/right-arrow.png"
+              style="position: absolute"
+              class="right-arr"
+              alt=""
+            />
+          </div>
+          <div class="col-md-12 d-flex justify-content-center">
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4 p-5" id="company-info">
+            <img src="assets/images/lg1.png" alt="company_logo" class="pb-3" />
+            <p>
+              We have best quality education courses<br />and we provide
+              education courses for<br />students parents.
+            </p>
+            <div class="m-0 d-flex align-items-center">
+              <div id="facebook" class="pr-3 end-logos">
+                <img src="assets/images/facebook 1.webp" alt="facebook_img" />
+              </div>
+              <div id="instagram" class="end-logos">
+                <img src="assets/images/instagram.webp" alt="instagram_img" />
+              </div>
+              <div id="twitter" class="end-logos">
+                <img src="assets/images/twitter.webp" alt="twitter_img" />
+              </div>
+              <div id="youtube" class="end-logos">
+                <img src="assets/images/youtube 1.webp" alt="yotuube_img" />
+              </div>
+            </div>
+          </div>
+          <div class="col-8 d-flex justify-content-around">
+            <div class="col-2 py-5" id="links-1">
+              <h2 class="mb-3" style="font-size: 28px">Quick Links</h2>
+              <ul class="m-0 p-0">
+                <li class="pb-2">About Us</li>
+                <li class="pb-2">Courses</li>
+                <li class="pb-2">Become a Teacher</li>
+                <li>Become a Parent</li>
+              </ul>
+            </div>
+            <div class="col-2 py-5" id="links-2">
+              <h2 class="mb-3" style="font-size: 28px">More Links</h2>
+              <ul class="m-0 p-0">
+                <li class="pb-2">Sign In</li>
+                <li class="pb-2">Sign Up</li>
+                <li class="pb-2">Buy Courses</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+            <div class="py-5 mb-2 align-items-start" id="news_sec">
+              <h2 class="mb-3" style="font-size: 28px">Our Newsletter</h2>
+              <p>Get subscribe our newsletter for updates</p>
+              <input type="text" placeholder="Enter your email address" /><span
+                class="share-ic"
+                ><img src="assets/images/Share.webp" alt="share-ic"
+              /></span>
+            </div>
+          </div>
+          <div class="col-10 px-0 offset-1">
+            <hr
+              style="
+                height: 2px;
+                border-width: 0;
+                color: gray;
+                background-color: gray;
+              "
+            />
+          </div>
+          <div
+            class="col-12 my-4 d-flex align-items-center justify-content-center"
+            style="color: rgba(30, 41, 59, 1)"
+          >
+            © NotePal | All Rights Reserved 2023
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".next",
+          prevEl: ".prev",
+        },
+      });
+    </script>
+  </body>
+</html>
